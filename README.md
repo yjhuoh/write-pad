@@ -1,5 +1,5 @@
 
-# right-pad
+# write-pad
 
 Helper function for right padding a string.
 
@@ -9,7 +9,7 @@ Helper function for right padding a string.
 ## Installation
 
 ```bash
-$ npm install right-pad
+$ npm install write-pad
 ```
 
 Then bundle for the browser with
@@ -18,15 +18,15 @@ Then bundle for the browser with
 ## Usage
 
 ```
-rightpad = require('right-pad')
+writepad = require('write-pad')
 
-rightpad('foo', 5)
+writepad('foo', 5)
 // => "foo  "
 
-rightpad('foobar', 6)
+writepad('foobar', 6)
 // => "foobar"
 
-rightpad(1, 2, 0)
+writepad(1, 2, 0)
 // => "10"
 ```
 

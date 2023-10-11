@@ -1,13 +1,14 @@
 {
   "name": "write-pad",
   "description": "String right pad",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": {
     "type": "git",
     "url": "git://github.com/yjhuoh/right-pad.git"
   },
   "homepage": "https://github.com/yjhuoh/right-pad",
   "main": "index.js",
+  "types": "index.d.ts",
   "dependencies": {
     "left-pad": "^1.0.1"
   },
